@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Coupon Web",
+    "image": "https://imgs.search.brave.com/2ZzBSpBvXT2PqQy0vxJw8ok3Ri3w66fdQaWGWZhthag/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZWFs/c3BvdHIuY29tL2lt/Zy9zYy1kZXNrdG9w/LXByb21vLndlYnA",
+    "description": "A comprehensive e-commerce platform that offers unbeatable deals and discounts through a wide range of coupons for products and services. Features include real-time coupon updates, category-based searches, and personalized recommendations to help users save money effortlessly while shopping online.",
+    "live": "https://coupon-web-assignment-9.netlify.app/",
+    "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+  },
+  {
+    "id": 2,
+    "title": "Chill Gamer",
+    "image": "https://imgs.search.brave.com/T2XC_VvjwwvFJqpYkemH2JXgd6ub40ZkUJhAxj36fHE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZWVr/ZmxhcmUuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzEw/L01vemlsbGEtMTEx/MHg2MjgucG5n",
+    "description": "A dynamic gaming platform offering the latest reviews, trending news, and engaging content for gamers worldwide. Features include game walkthroughs, gameplay videos, leaderboards, and a thriving community of passionate gamers. Perfect for casual players and hardcore enthusiasts alike to stay updated and connect with others in the gaming universe.",
+    "live": "https://chill-gamer-rihan.netlify.app/",
+    "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+  },
+  {
+    "id": 3,
+    "title": "Blogs Web",
+    "image": "https://imgs.search.brave.com/gTOuwzxb-GBPZ8Vy7Mfn_gu-HbJL0fj8i0oO8LnMwdQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWxlZ2FudHRoZW1l/cy5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/My9BYmR1emVlZG8t/ZTE2MTcwNzQzODIz/MzUucG5n",
+    "description": "An elegant and user-friendly blog website designed for sharing insights, stories, and expertise across various topics like technology, lifestyle, health, travel, and more. The platform supports multimedia-rich posts, reader comments, and social sharing to create an interactive experience for readers and writers.",
+    "live": "https://writingx-assignment-11.netlify.app/",
+    "technologies": ["HTML", "Tailwind", "React", "Node.js", "MongoDB"]
+  }
+]
