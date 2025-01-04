@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import logo from '/R.webp'
 const Footer = () => {
     return (
         <div>
@@ -9,7 +10,7 @@ const Footer = () => {
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
         >
-          <h3 className='text-7xl text-white font-thin mr-8 '>R</h3>
+          <img className='w-[100px] rounded-3xl' src={logo} alt="" />
           <p className="font-bold text-lg text-gray-500 mr-8 ">
             MERN Developer
           </p>
@@ -22,7 +23,7 @@ const Footer = () => {
           className="text-left">
             <div className="flex">
               <div className="">
-              <h3 className='text-4xl text-gray-300 font-semibold mr-8 '>R</h3>
+              <img className='w-[90px] rounded-3xl' src={logo} alt="" />
               </div>
             </div>
             <h1 className="mt-3 text-gray-500">
