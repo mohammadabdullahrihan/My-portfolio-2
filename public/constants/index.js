@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/Coderammer.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -41,6 +41,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
+    title: "Coderammer It Solution",
+    image: project4,
+    description:
+      "Coderammer IT Solution is a dynamic and innovative software development company committed to delivering cutting-edge technology solutions. With a focus on quality, scalability, and client satisfaction, we specialize in web and mobile development, custom software solutions, and digital transformation projects.",
+    technologies: ["HTML", "CSS", "React","Typescript", "Node.js", "MongoDB",],
+  },
+  {
+    id: 2,
     title: "Coupon Web",
     image: project1,
     description:
@@ -48,7 +56,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    id: 2, 
+    id: 3, 
     title: "Chill Gamer",
     image: project2,
     description:
@@ -56,7 +64,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Blogs ",
     image: project3,
     description:
@@ -65,9 +73,3 @@ export const PROJECTS = [
   },
   
 ];
-
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};

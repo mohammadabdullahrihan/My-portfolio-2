@@ -8,10 +8,12 @@ const Work = () => {
       <h2 className="my-20 text-center font-thin text-4xl">Projects</h2>
       <div className="flex flex-wrap justify-center">
       {
-      PROJECTS?.map((project, index) => <div key={index} className="mb-8 flex flex-wrap lg:justify-center"> 
+
+      PROJECTS?.map((project, index) => 
+      <div key={index} className="mb-8 flex flex-wrap lg:justify-center"> 
       <div className="w-full lg:w-1/4 flex justify-center">
        <motion.img src={project?.image} width={500} height={350} alt={project?.title}
-       className="mb-6 rounded-3xl"
+       className="mb-6 rounded-3xl object-cover"
        whileInView={{ opacity: 1, x: 0 }}
      initial={{ opacity: 0, x: 100 }}
      transition={{ duration: 1 }}

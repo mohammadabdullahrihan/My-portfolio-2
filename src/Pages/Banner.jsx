@@ -35,14 +35,14 @@ const Banner = () => {
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent ">
-              MERN Developer
+              Front-End Developer
             </motion.h2>
             <motion.p 
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="text-gray-400 my-2 max-w-xl py-6 font-light text-[18px] tracking-tighter w-[250px] md:w-[600px] xl:w-[500px]">
-              I am a MERN Stack Web Developer with experience in building
+              I am a Front-end Web Developer with experience in building
               full-stack web applications using MongoDB, Express.js, React.js,
               and Node.js. I excel at creating responsive and user-friendly
               interfaces, designing scalable back-end systems, and integrating
@@ -53,15 +53,31 @@ const Banner = () => {
             <div className="">
               <div className="flex space-x-5 mb-7 text-3xl ">
                 <div>
+                  <Link
+                  to={"https://www.linkedin.com/in/alabdullahrihan/"}
+                  target="_blank"
+                  >
                   <FaLinkedin />
+                  </Link>
                 </div>
 
                 <div>
+                  <Link
+                  to={"https://github.com/mohammadabdullahrihan"}
+                  target="_blank"
+                  >
+
                   <FaGithub />
+                  </Link>
                 </div>
 
                 <div>
+                  <Link
+                  to={"https://www.facebook.com/Alabdullahrihan/"}
+                  target="_blank"
+                  >
                   <FaFacebook />
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,9 +1,11 @@
 import React from "react";
 import { FaNode } from "react-icons/fa";
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 import { motion } from "framer-motion";
+import { BiLogoGraphql, BiLogoTypescript } from "react-icons/bi";
 
 const icon = (duration) => ({
   initial: {
@@ -39,6 +41,13 @@ const Tech = () => {
          className="rounded-2xl border-l-2 border-t-2 border-sky-300 p-5">
           <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
+        <motion.div
+        variants={icon(5)}
+        initial="initial"
+        animate="animate"
+         className="rounded-2xl border-l-2 border-t-2 border-blue-400 p-5">
+          <BiLogoTypescript className="text-7xl text-blue-400" />
+        </motion.div>
 
         <motion.div
         variants={icon(3)}
@@ -46,6 +55,20 @@ const Tech = () => {
         animate="animate"
          className="rounded-2xl border-yellow-400 border-l-2 border-t-2 p-5 ">
           <RiJavascriptFill className="text-7xl text-yellow-300" />
+        </motion.div>
+        <motion.div
+        variants={icon(4)}
+        initial="initial"
+        animate="animate"
+         className="rounded-2xl border-l-2 border-t-2 border-sky-300 p-5">
+          <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+        variants={icon(3)}
+        initial="initial"
+        animate="animate"
+         className="rounded-2xl border-l-2 border-t-2 border-white p-5">
+          <RiNextjsFill className="text-7xl text-white" />
         </motion.div>
         
         <motion.div
@@ -72,12 +95,23 @@ const Tech = () => {
           <FaNode className="text-7xl text-green-400" />
         </motion.div>
 
+
+
         <motion.div
-        variants={icon(4)}
+        variants={icon(3)}
         initial="initial"
         animate="animate"
-         className="rounded-2xl border-l-2 border-t-2 border-sky-300 p-5">
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+         className="rounded-2xl border-l-2 border-t-2 border-pink-600 p-5">
+          <BiLogoGraphql className="text-7xl text-pink-600" />
+        </motion.div>
+
+
+        <motion.div
+        variants={icon(3)}
+        initial="initial"
+        animate="animate"
+         className="rounded-2xl border-l-2 border-t-2 border-yellow-500 p-5">
+          <IoLogoFirebase className="text-7xl text-yellow-500" />
         </motion.div>
 
       </motion.div>
